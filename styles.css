@@ -277,3 +277,95 @@
   @media (max-width:920px){
     .info-strip{grid-template-columns:1fr;}
   }
+
+  /* ===== IDENTIDADE PESSOAL / V2 ===== */
+  .name-block{margin-bottom:20px;}
+  .name-block .name{
+    font-family:var(--serif); font-weight:700; font-size:clamp(1.5rem,2.6vw,2rem);
+    letter-spacing:-0.01em; color:var(--text-hi); display:block; margin-bottom:8px;
+  }
+  .name-block .role{
+    font-family:var(--mono); font-size:0.78rem; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--blue-cyan);
+  }
+
+  .pill-list{display:flex; flex-wrap:wrap; gap:10px; margin-top:24px;}
+  .pill{
+    font-family:var(--mono); font-size:0.78rem; color:var(--text-mid); padding:8px 16px;
+    border:1px solid var(--glass-border); border-radius:999px; background:var(--glass);
+    backdrop-filter:blur(10px); transition:all .2s;
+  }
+  .pill:hover{border-color:var(--glass-border-hi); color:var(--text-hi);}
+
+  .about-more{
+    margin-top:26px; font-family:var(--mono); font-size:0.85rem; color:var(--blue-cyan);
+    display:inline-flex; align-items:center; gap:8px; transition:gap .2s;
+  }
+  .about-more:hover{gap:12px;}
+  .about-more svg{width:14px; height:14px;}
+
+  .card-num{
+    font-family:var(--mono); font-size:1.6rem; font-weight:500; color:var(--blue-cyan);
+    letter-spacing:0; margin-bottom:16px; display:block; position:relative;
+    opacity:0.85;
+  }
+
+  /* Tecnologia + Direito */
+  .hybrid-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
+  .hybrid-card{
+    background:var(--glass); border:1px solid var(--glass-border); border-radius:16px; padding:28px 24px;
+    backdrop-filter:blur(16px); position:relative; overflow:hidden;
+  }
+  .hybrid-card .ico-wrap{
+    width:42px; height:42px; border-radius:11px; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(135deg, var(--blue-electric), var(--blue-cyan)); margin-bottom:18px;
+  }
+  .hybrid-card .ico-wrap svg{width:20px; height:20px; color:#050814;}
+  .hybrid-card h3{font-family:var(--serif); font-weight:600; font-size:1.08rem; margin-bottom:10px;}
+  .hybrid-card p{font-size:0.88rem; color:var(--text-mid); line-height:1.6;}
+
+  /* Contato profissional */
+  .contact-id{
+    display:flex; align-items:center; gap:16px; margin-bottom:28px; padding-bottom:28px;
+    border-bottom:1px solid var(--glass-border);
+  }
+  .contact-avatar{
+    width:52px; height:52px; border-radius:14px; flex-shrink:0;
+    background:linear-gradient(135deg, var(--blue-electric), var(--blue-cyan));
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--serif); font-weight:700; font-size:1.2rem; color:#050814;
+  }
+  .contact-id .cn{font-family:var(--serif); font-weight:600; font-size:1.15rem; color:var(--text-hi); display:block;}
+  .contact-id .cr{font-family:var(--mono); font-size:0.76rem; color:var(--blue-cyan); text-transform:uppercase; letter-spacing:0.06em;}
+
+  @media (max-width:920px){
+    .hybrid-grid{grid-template-columns:1fr;}
+  }
+
+  /* ===== PÁGINA SOBRE ===== */
+  .sobre-hero{padding:80px 0 60px;}
+  .sobre-hero .name-block .name{font-size:clamp(2rem,4vw,2.8rem);}
+  .sobre-hero .lede{font-size:1.08rem; color:var(--text-mid); max-width:600px; line-height:1.7; margin-top:20px;}
+
+  .timeline{display:flex; flex-direction:column; gap:0; margin-top:20px;}
+  .timeline-item{
+    display:grid; grid-template-columns:130px 1fr; gap:24px; padding:26px 0;
+    border-bottom:1px solid var(--glass-border);
+  }
+  .timeline-item:first-child{padding-top:0;}
+  .timeline-item .ty{font-family:var(--mono); font-size:0.82rem; color:var(--blue-cyan); padding-top:2px;}
+  .timeline-item h3{font-family:var(--serif); font-weight:600; font-size:1.1rem; margin-bottom:8px;}
+  .timeline-item p{color:var(--text-mid); font-size:0.94rem; line-height:1.7;}
+
+  .values-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:20px;}
+  .value-card{
+    background:var(--glass); border:1px solid var(--glass-border); border-radius:14px; padding:22px;
+    backdrop-filter:blur(14px);
+  }
+  .value-card .vn{font-family:var(--mono); font-size:0.72rem; color:var(--blue-cyan); text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:8px;}
+  .value-card p{font-size:0.92rem; color:var(--text-mid); line-height:1.6;}
+
+  @media (max-width:640px){
+    .timeline-item{grid-template-columns:1fr;}
+    .values-grid{grid-template-columns:1fr;}
+  }
