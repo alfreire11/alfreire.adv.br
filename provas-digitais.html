@@ -3,58 +3,100 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Provas Digitais — alfredo.adv.br</title>
-<meta name="description" content="Estudo introdutório sobre provas digitais e seu valor probatório no processo brasileiro.">
-<link rel="stylesheet" href="style.css">
+<title>Provas Digitais | alfredo.adv.br</title>
+<meta name="description" content="Como registros eletrônicos, logs e metadados ganham valor probatório — e o que garante sua validade em juízo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="brand">alfredo<span>.adv.br</span></a>
-    <ul class="nav-links">
-      <li><a href="lgpd.html">LGPD</a></li>
-      <li><a href="provas-digitais.html" class="active">Provas Digitais</a></li>
-      <li><a href="crimes-ciberneticos.html">Crimes Cibernéticos</a></li>
-      <li><a href="index.html#contato">Contato</a></li>
-    </ul>
-  </div>
-</nav>
+<div class="mesh"></div>
+<div class="grid-overlay"></div>
 
-<header class="processo-head">
-  <div class="wrap">
-    <span class="idx">Processo nº 002</span>
-    <h1>Provas Digitais</h1>
-    <span class="status">Conteúdo em desenvolvimento</span>
-  </div>
+<header>
+  <nav class="wrap">
+    <a href="index.html" class="logo"><span class="dot"></span>alfredo<span style="color:var(--text-low)">.adv.br</span></a>
+    <div class="navlinks">
+      <a href="index.html#areas">Temas</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#contato">Contato</a>
+    </div>
+    <a href="index.html#contato" class="nav-cta">// falar comigo</a>
+  </nav>
 </header>
 
-<article class="processo-body wrap">
-  <p>Mensagens de texto, e-mails, registros de acesso, metadados e arquivos armazenados em nuvem são hoje parte comum dos processos judiciais. O Código de Processo Civil admite qualquer meio de prova legalmente obtido, o que inclui documentos e registros eletrônicos.</p>
+<main class="wrap">
 
-  <h2>Valor probatório</h2>
-  <p>Para que uma evidência digital tenha peso em juízo, costuma-se avaliar sua integridade — se o conteúdo não foi alterado — e sua origem, isto é, se é possível vincular o registro a quem o produziu. Ferramentas como a ata notarial e a perícia técnica são frequentemente usadas para reforçar essa credibilidade.</p>
+  <section class="article-hero">
+    <div class="breadcrumb">
+      <a href="index.html">alfredo.adv.br</a><span class="sep">/</span>
+      <a href="index.html#areas">temas</a><span class="sep">/</span>
+      <span class="current">provas digitais</span>
+    </div>
+    <span class="card-id">Processo nº 002 · Provas Digitais</span>
+    <h1>Provas Digitais e sua Validade Jurídica</h1>
+    <p class="sub">Como logs, metadados, e-mails e conversas eletrônicas deixam de ser apenas dados técnicos e passam a valer como prova em um processo — e o que garante que essa prova resista a um questionamento em juízo.</p>
 
-  <h2>Cadeia de custódia</h2>
-  <p>O conceito de cadeia de custódia, tradicionalmente associado à prova penal, também orienta a coleta de evidências digitais: documentar como o dado foi obtido, preservado e manuseado até chegar ao processo, evitando questionamentos sobre sua autenticidade.</p>
+    <div class="info-strip">
+      <div class="info-box"><span class="k">Base legal</span><span class="v">CPC arts. 369 e 411 · Marco Civil da Internet (Lei 12.965/2014)</span></div>
+      <div class="info-box"><span class="k">Conceito-chave</span><span class="v">Cadeia de custódia digital</span></div>
+      <div class="info-box"><span class="k">Área correlata</span><span class="v">Perícia forense computacional</span></div>
+    </div>
+  </section>
 
-  <h2>Desafios comuns</h2>
-  <ul>
-    <li>Volatilidade dos dados — muitos registros podem ser apagados ou sobrescritos</li>
-    <li>Dependência de terceiros (provedores, plataformas) para obtenção dos dados</li>
-    <li>Necessidade de conhecimento técnico para interpretar logs e metadados</li>
-  </ul>
+  <section class="article-body">
 
-  <p class="disclaimer">Conteúdo de caráter informativo e acadêmico. Não substitui orientação jurídica sobre um caso concreto.</p>
-  <p><a class="back-link" href="index.html">⬅ Voltar para a página inicial</a></p>
-</article>
+    <h2><span class="num">§1</span>O que são provas digitais</h2>
+    <p>Prova digital é toda informação armazenada ou transmitida em formato eletrônico capaz de comprovar a existência ou a veracidade de um fato em um processo judicial ou administrativo. Isso inclui e-mails, mensagens de aplicativos, registros de acesso (logs), metadados de arquivos, capturas de tela, históricos de navegação, transações bancárias eletrônicas e dados extraídos de dispositivos como celulares e computadores.</p>
+    <p>O sistema processual brasileiro adota o princípio da liberdade dos meios de prova (art. 369 do CPC), o que permite que qualquer meio legalmente admitido seja utilizado para provar a verdade dos fatos — inclusive documentos e registros exclusivamente eletrônicos.</p>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <span>© <span id="year"></span> alfredo.adv.br</span>
-    <span>Conteúdo de caráter informativo e acadêmico.</span>
+    <h2><span class="num">§2</span>Cadeia de custódia digital</h2>
+    <p>Para que uma prova digital seja aceita e considerada confiável, é preciso demonstrar sua <strong>cadeia de custódia</strong>: o conjunto de procedimentos que documentam todo o percurso da evidência, desde a coleta até a apresentação em juízo, preservando sua integridade. Isso envolve registrar quem coletou o dado, quando, como, com qual ferramenta, e garantir que ele não foi alterado nesse trajeto.</p>
+    <ul class="clause-list">
+      <li><span class="tag">1</span><span class="txt"><strong>Identificação</strong> — reconhecimento da fonte de prova (dispositivo, sistema, conta).</span></li>
+      <li><span class="tag">2</span><span class="txt"><strong>Coleta</strong> — extração da evidência com métodos que preservem seu estado original.</span></li>
+      <li><span class="tag">3</span><span class="txt"><strong>Preservação</strong> — uso de hash criptográfico (ex: SHA-256) para atestar que o arquivo não foi modificado.</span></li>
+      <li><span class="tag">4</span><span class="txt"><strong>Análise</strong> — exame técnico do material por perito ou profissional habilitado.</span></li>
+      <li><span class="tag">5</span><span class="txt"><strong>Apresentação</strong> — juntada da prova ao processo com laudo ou relatório que documente todo o histórico.</span></li>
+    </ul>
+
+    <h2><span class="num">§3</span>Tipos de evidência digital</h2>
+    <p>Na prática forense, alguns tipos de evidência aparecem com mais frequência:</p>
+    <ul class="clause-list">
+      <li><span class="tag">Logs</span><span class="txt">Registros automáticos de eventos em sistemas — acessos, alterações, horários — úteis para reconstruir uma sequência de fatos.</span></li>
+      <li><span class="tag">Metadados</span><span class="txt">Dados sobre os dados: data de criação de um arquivo, geolocalização de uma foto, autor de um documento.</span></li>
+      <li><span class="tag">Comunicações</span><span class="txt">E-mails, mensagens de texto e conversas em aplicativos, frequentemente usados em disputas contratuais e trabalhistas.</span></li>
+      <li><span class="tag">Perícia</span><span class="txt">Extração e análise técnica de dispositivos (celulares, computadores, servidores) por perito forense computacional.</span></li>
+    </ul>
+
+    <h2><span class="num">§4</span>Validade jurídica</h2>
+    <p>Para que uma prova digital seja admitida e tenha peso probatório, três elementos costumam ser exigidos pelos tribunais: <strong>autenticidade</strong> (comprovação de que o documento provém de quem se alega), <strong>integridade</strong> (garantia de que o conteúdo não foi alterado) e <strong>licitude</strong> na obtenção (a prova não pode ter sido colhida por meios ilegais, sob pena de ser considerada prova ilícita e descartada do processo, nos termos do art. 5º, LVI, da Constituição Federal).</p>
+    <p>O Marco Civil da Internet reforça esse cenário ao determinar a guarda obrigatória de registros de conexão e de acesso a aplicações por provedores, o que frequentemente serve de base para a produção de provas digitais em disputas judiciais.</p>
+
+    <div class="callout">
+      <span class="k">Ponto de atenção</span>
+      <p>Um simples print de tela, sem metadados ou ata notarial que o acompanhe, tem valor probatório reduzido: pode ser questionado quanto à autenticidade por ser facilmente editável.</p>
+    </div>
+
+    <h2><span class="num">§5</span>Ata notarial como reforço probatório</h2>
+    <p>Uma das formas mais utilizadas para reforçar a validade de uma prova digital é a <strong>ata notarial</strong>, documento lavrado por tabelião que certifica a existência e o conteúdo de determinado fato ou registro eletrônico no momento em que foi observado — conferindo fé pública ao que, de outro modo, seria uma simples captura de tela.</p>
+
+    <div class="article-nav">
+      <a href="lgpd.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Anterior: LGPD</a>
+      <a href="crimes-ciberneticos.html">Próximo: Crimes Cibernéticos<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="footer-row">
+    <p>© alfredo.adv.br — conteúdo de caráter informativo e acadêmico.</p>
+    <p>compilado em pt-BR // status: online</p>
   </div>
 </footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
 </body>
 </html>

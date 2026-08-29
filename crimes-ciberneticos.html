@@ -3,62 +3,97 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Crimes Cibernéticos — alfredo.adv.br</title>
-<meta name="description" content="Panorama introdutório sobre a legislação penal brasileira aplicada a crimes cibernéticos.">
-<link rel="stylesheet" href="style.css">
+<title>Crimes Cibernéticos | alfredo.adv.br</title>
+<meta name="description" content="Panorama da legislação penal aplicada a invasões, fraudes eletrônicas e outros ilícitos praticados por meio digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="brand">alfredo<span>.adv.br</span></a>
-    <ul class="nav-links">
-      <li><a href="lgpd.html">LGPD</a></li>
-      <li><a href="provas-digitais.html">Provas Digitais</a></li>
-      <li><a href="crimes-ciberneticos.html" class="active">Crimes Cibernéticos</a></li>
-      <li><a href="index.html#contato">Contato</a></li>
-    </ul>
-  </div>
-</nav>
+<div class="mesh"></div>
+<div class="grid-overlay"></div>
 
-<header class="processo-head">
-  <div class="wrap">
-    <span class="idx">Processo nº 003</span>
-    <h1>Crimes Cibernéticos</h1>
-    <span class="status">Conteúdo em desenvolvimento</span>
-  </div>
+<header>
+  <nav class="wrap">
+    <a href="index.html" class="logo"><span class="dot"></span>alfredo<span style="color:var(--text-low)">.adv.br</span></a>
+    <div class="navlinks">
+      <a href="index.html#areas">Temas</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#contato">Contato</a>
+    </div>
+    <a href="index.html#contato" class="nav-cta">// falar comigo</a>
+  </nav>
 </header>
 
-<article class="processo-body wrap">
-  <p>O ordenamento brasileiro trata os crimes praticados por meio da informática principalmente a partir de alterações no Código Penal, complementadas por leis específicas voltadas ao ambiente digital.</p>
+<main class="wrap">
 
-  <h2>Lei nº 12.737/2012</h2>
-  <p>Conhecida como Lei Carolina Dieckmann, tipificou a invasão de dispositivo informático alheio, mediante violação indevida de mecanismo de segurança, com o fim de obter, adulterar ou destruir dados, ou instalar vulnerabilidades para obter vantagem ilícita.</p>
+  <section class="article-hero">
+    <div class="breadcrumb">
+      <a href="index.html">alfredo.adv.br</a><span class="sep">/</span>
+      <a href="index.html#areas">temas</a><span class="sep">/</span>
+      <span class="current">crimes cibernéticos</span>
+    </div>
+    <span class="card-id">Processo nº 003 · Crimes Cibernéticos</span>
+    <h1>Panorama dos Crimes Cibernéticos no Brasil</h1>
+    <p class="sub">Um mapeamento da legislação penal aplicada a invasões de dispositivos, fraudes eletrônicas e outros ilícitos praticados por meio digital — e como o Direito Penal tem se adaptado a condutas que nasceram fora do papel.</p>
 
-  <h2>Marco Civil da Internet</h2>
-  <p>A Lei nº 12.965/2014 não é uma lei penal, mas estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil — incluindo regras de guarda de registros de conexão e acesso, frequentemente relevantes para a apuração de ilícitos cometidos on-line.</p>
+    <div class="info-strip">
+      <div class="info-box"><span class="k">Marco legal</span><span class="v">Lei nº 12.737/2012 ("Lei Carolina Dieckmann")</span></div>
+      <div class="info-box"><span class="k">Base penal</span><span class="v">Código Penal, arts. 154-A, 155 e 171</span></div>
+      <div class="info-box"><span class="k">Investigação</span><span class="v">Delegacias especializadas em crimes cibernéticos</span></div>
+    </div>
+  </section>
 
-  <h2>Modalidades comuns</h2>
-  <ul>
-    <li>Invasão de dispositivos e sistemas</li>
-    <li>Fraudes eletrônicas e engenharia social (phishing)</li>
-    <li>Divulgação não autorizada de dados ou imagens</li>
-    <li>Ataques a infraestrutura (indisponibilização de serviços)</li>
-  </ul>
+  <section class="article-body">
 
-  <h2>Dificuldades na persecução penal</h2>
-  <p>A identificação de autoria, a territorialidade de servidores e plataformas, e a necessidade de cooperação internacional costumam figurar entre os principais obstáculos na investigação e responsabilização desses crimes.</p>
+    <h2><span class="num">§1</span>O surgimento da tipificação penal</h2>
+    <p>Até 2012, o Brasil não possuía tipo penal específico para invasão de dispositivos informáticos. Esse cenário mudou com a <strong>Lei nº 12.737/2012</strong>, conhecida popularmente como "Lei Carolina Dieckmann", editada após um caso de grande repercussão envolvendo o vazamento de fotos íntimas da atriz obtidas por meio de invasão de computador. A lei incluiu o art. 154-A no Código Penal, criminalizando a invasão de dispositivo informático alheio.</p>
 
-  <p class="disclaimer">Conteúdo de caráter informativo e acadêmico. Não substitui orientação jurídica sobre um caso concreto.</p>
-  <p><a class="back-link" href="index.html">⬅ Voltar para a página inicial</a></p>
-</article>
+    <h2><span class="num">§2</span>Principais tipos penais aplicáveis</h2>
+    <ul class="clause-list">
+      <li><span class="tag">Art. 154-A</span><span class="txt"><strong>Invasão de dispositivo informático</strong> — invadir dispositivo alheio, conectado ou não à rede, mediante violação de mecanismo de segurança, para obter, adulterar ou destruir dados, ou instalar vulnerabilidades.</span></li>
+      <li><span class="tag">Art. 155, §4º-A</span><span class="txt"><strong>Furto mediante fraude eletrônica</strong> — subtração de valores por meio de dispositivo eletrônico ou informático, conectado ou não à rede, com ou sem violação de mecanismo de segurança.</span></li>
+      <li><span class="tag">Art. 171, §2º-A</span><span class="txt"><strong>Estelionato praticado por meio eletrônico</strong> — obter vantagem ilícita mediante fraude praticada com uso de informações fornecidas pela vítima ou terceiro induzido a erro por meio de rede social, contato telefônico ou envio eletrônico de mensagem fraudulenta.</span></li>
+      <li><span class="tag">Lei 13.964/2019</span><span class="txt">Incluiu qualificadoras específicas para fraudes eletrônicas praticadas com uso de perfil falso ou dados fornecidos por vítima induzida a erro.</span></li>
+    </ul>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <span>© <span id="year"></span> alfredo.adv.br</span>
-    <span>Conteúdo de caráter informativo e acadêmico.</span>
+    <h2><span class="num">§3</span>Modalidades mais comuns</h2>
+    <p>Na prática, alguns padrões de conduta ilícita se repetem e já têm tratamento consolidado pela jurisprudência:</p>
+    <ul class="clause-list">
+      <li><span class="tag">Phishing</span><span class="txt">Envio de mensagens fraudulentas que induzem a vítima a fornecer dados pessoais, senhas ou informações bancárias.</span></li>
+      <li><span class="tag">Ransomware</span><span class="txt">Sequestro de dados mediante criptografia, seguido de exigência de pagamento para restabelecer o acesso.</span></li>
+      <li><span class="tag">Golpes em redes sociais</span><span class="txt">Uso de perfis falsos ou clonados para aplicar fraudes financeiras ou obter dados de terceiros.</span></li>
+      <li><span class="tag">Crimes contra a honra digitais</span><span class="txt">Difamação, injúria e calúnia praticadas em ambiente virtual, com aplicação dos tipos penais tradicionais ao meio eletrônico.</span></li>
+    </ul>
+
+    <div class="callout">
+      <span class="k">Ponto de atenção</span>
+      <p>Muitos desses ilícitos não exigem um tipo penal "novo": o Direito Penal brasileiro frequentemente aplica figuras já existentes (furto, estelionato, extorsão) ao meio eletrônico, com o meio digital funcionando como circunstância qualificadora.</p>
+    </div>
+
+    <h2><span class="num">§4</span>Competência e investigação</h2>
+    <p>A investigação de crimes cibernéticos no Brasil é conduzida, em regra, por delegacias especializadas das Polícias Civis estaduais, com apoio, em casos de maior complexidade ou repercussão interestadual, da Polícia Federal. A competência para julgamento é, em regra, da Justiça Estadual, salvo quando há ofensa a bens, serviços ou interesses da União, hipótese em que a Justiça Federal se torna competente.</p>
+    <p>Um dos maiores desafios na apuração desses crimes é a obtenção de provas técnicas — daí a importância da cadeia de custódia digital, tema tratado em profundidade no processo sobre provas digitais deste espaço.</p>
+
+    <h2><span class="num">§5</span>Prevenção e boas práticas</h2>
+    <p>Do ponto de vista preventivo, recomenda-se a adoção de autenticação em duas etapas, atualização constante de sistemas, cautela com links e anexos recebidos por e-mail ou mensagem, e verificação da autenticidade de perfis e canais de contato antes de fornecer dados sensíveis — medidas simples que reduzem significativamente a exposição a esse tipo de ilícito.</p>
+
+    <div class="article-nav">
+      <a href="provas-digitais.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Anterior: Provas Digitais</a>
+      <a href="index.html#areas">Voltar aos temas<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="footer-row">
+    <p>© alfredo.adv.br — conteúdo de caráter informativo e acadêmico.</p>
+    <p>compilado em pt-BR // status: online</p>
   </div>
 </footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
 </body>
 </html>

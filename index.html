@@ -5,133 +5,152 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>alfredo.adv.br — Direito Eletrônico &amp; Informática Jurídica</title>
 <meta name="description" content="Estudos e conteúdos sobre Direito Eletrônico e Informática Jurídica: LGPD, provas digitais e crimes cibernéticos.">
-<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <div class="wrap">
-    <a href="index.html" class="brand">alfredo<span>.adv.br</span></a>
-    <ul class="nav-links">
-      <li><a href="lgpd.html">LGPD</a></li>
-      <li><a href="provas-digitais.html">Provas Digitais</a></li>
-      <li><a href="crimes-ciberneticos.html">Crimes Cibernéticos</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </div>
-</nav>
+<div class="mesh"></div>
+<div class="grid-overlay"></div>
 
-<header class="hero">
-  <div class="wrap">
-    <div>
-      <span class="eyebrow">Direito Eletrônico · Informática Jurídica</span>
-      <h1>Onde o <em>código</em><br>encontra o <em>direito</em>.</h1>
-      <p class="lede">Estudos e conteúdos sobre proteção de dados, provas digitais e crimes cibernéticos — escritos por alguém que também lê logs, não só petições.</p>
-      <div class="hero-actions">
-        <a href="#areas" class="btn primary">Ver os temas</a>
-        <a href="#contato" class="btn">Falar comigo</a>
-      </div>
+<header>
+  <nav class="wrap">
+    <div class="logo"><span class="dot"></span>alfredo<span style="color:var(--text-low)">.adv.br</span></div>
+    <div class="navlinks">
+      <a href="#areas">Temas</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
     </div>
-    <div class="seal-holder">
-      <svg class="seal" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Selo de autenticidade digital">
-        <defs>
-          <path id="ring" d="M 120,120 m -95,0 a 95,95 0 1,1 190,0 a 95,95 0 1,1 -190,0"/>
-        </defs>
-        <circle cx="120" cy="120" r="118" fill="none" stroke="#1F3040" stroke-width="1"/>
-        <circle cx="120" cy="120" r="96" fill="none" stroke="#A9822F" stroke-width="1"/>
-        <text font-family="IBM Plex Mono, monospace" font-size="10.3" letter-spacing="3" fill="#1F3040">
-          <textPath href="#ring" startOffset="0%">
-            AUTENTICIDADE DIGITAL • DIREITO ELETRÔNICO • INFORMÁTICA JURÍDICA •
-          </textPath>
-        </text>
-        <g class="seal-mark" transform="translate(120,120)">
-          <line x1="0" y1="-38" x2="0" y2="30" stroke="#14202B" stroke-width="2"/>
-          <line x1="-34" y1="-22" x2="34" y2="-22" stroke="#14202B" stroke-width="2"/>
-          <path d="M -34,-22 L -46,4 A 14,14 0 0 0 -22,4 Z" fill="none" stroke="#14202B" stroke-width="1.6"/>
-          <path d="M 34,-22 L 22,4 A 14,14 0 0 0 46,4 Z" fill="none" stroke="#14202B" stroke-width="1.6"/>
-          <line x1="-24" y1="30" x2="24" y2="30" stroke="#14202B" stroke-width="2"/>
-          <circle cx="0" cy="-38" r="4" fill="#A9822F"/>
-          <text x="0" y="52" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#3C6664">01001100</text>
-        </g>
-      </svg>
-    </div>
-  </div>
+    <a href="#contato" class="nav-cta">// falar comigo</a>
+  </nav>
 </header>
 
-<section class="about">
-  <div class="wrap">
-    <div>
-      <span class="eyebrow">Sobre</span>
-      <h2 style="font-family:var(--display); font-weight:500; font-size:clamp(1.5rem,2.6vw,2rem); margin:.4em 0 .6em;">Direito e sistemas, na mesma prática.</h2>
-      <p>Sou estudante de Direito e analista de sistemas. Este espaço nasceu da interseção dessas duas formações: um olhar jurídico sobre problemas que hoje nascem em ambiente digital — dados pessoais, evidências eletrônicas, fraudes e crimes praticados por meios informáticos.</p>
-      <p>O conteúdo aqui é de caráter informativo e acadêmico, reunindo estudos e anotações sobre os principais temas do Direito Eletrônico no Brasil. A ideia é simples: traduzir tecnologia para quem pensa em direito, e direito para quem pensa em sistemas.</p>
-    </div>
-    <dl class="ficha">
-      <dt>Formação</dt>
-      <dd>Direito (em curso) · Análise e Desenvolvimento de Sistemas</dd>
-      <dt>Área de estudo</dt>
-      <dd>Direito Eletrônico / Informática Jurídica</dd>
-      <dt>Foco atual</dt>
-      <dd>LGPD · Provas Digitais · Crimes Cibernéticos</dd>
-      <dt>Status do site</dt>
-      <dd>Em desenvolvimento contínuo</dd>
-    </dl>
-  </div>
-</section>
+<main class="wrap">
 
-<section id="areas">
-  <div class="wrap">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Direito Eletrônico · Informática Jurídica</div>
+        <h1>Onde o <em>código</em><br>encontra o <em>direito</em>.</h1>
+        <p class="lede">Estudos e conteúdos sobre proteção de dados, provas digitais e crimes cibernéticos — escritos por alguém que também lê logs, não só petições.</p>
+        <div class="hero-actions">
+          <a href="#areas" class="btn-primary">Ver os temas →</a>
+          <a href="#contato" class="btn-ghost">Falar comigo</a>
+        </div>
+        <div class="stats-row">
+          <div class="stat"><b>03</b><span>frentes de estudo</span></div>
+          <div class="stat"><b>LGPD</b><span>lei 13.709/2018</span></div>
+          <div class="stat"><b>2x</b><span>direito + sistemas</span></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="terminal-head">
+          <span class="tdot td1"></span><span class="tdot td2"></span><span class="tdot td3"></span>
+          <span class="terminal-title">painel.log</span>
+        </div>
+        <div class="terminal-body">
+<span class="prompt">&gt;</span> whoami<br>
+<span class="law">estudante_direito && analista_sistemas</span><br><br>
+<span class="prompt">&gt;</span> cat status.txt<br>
+<span class="comment">// site em desenvolvimento contínuo</span><br><br>
+<span class="prompt">&gt;</span> grep -r "foco_atual" ./estudos<br>
+<span class="law">LGPD · Provas Digitais · Crimes Cibernéticos</span><br><br>
+<span class="prompt">&gt;</span> echo $MISSAO<br>
+<span class="comment">"traduzir tecnologia para quem</span><br>
+<span class="comment">pensa em direito, e direito para</span><br>
+<span class="comment">quem pensa em sistemas."</span><br><br>
+<span class="prompt">&gt;</span> <span class="cursor"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
     <div class="section-head">
-      <span class="eyebrow">Temas abordados</span>
+      <div class="eyebrow">Sobre</div>
+      <h2>Direito e sistemas, na mesma prática.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Sou estudante de Direito e analista de sistemas. Este espaço nasceu da interseção dessas duas formações: um olhar jurídico sobre problemas que hoje nascem em ambiente digital — dados pessoais, evidências eletrônicas, fraudes e crimes praticados por meios informáticos.</p>
+        <p>O conteúdo aqui é de caráter informativo e acadêmico, reunindo estudos e anotações sobre os principais temas do Direito Eletrônico no Brasil. A ideia é simples: traduzir tecnologia para quem pensa em direito, e direito para quem pensa em sistemas.</p>
+      </div>
+      <div class="meta-cards">
+        <div class="meta-card"><span class="k">Formação</span><span class="v">Direito (em curso) · Análise e Desenvolvimento de Sistemas</span></div>
+        <div class="meta-card"><span class="k">Área de estudo</span><span class="v">Direito Eletrônico / Informática Jurídica</span></div>
+        <div class="meta-card"><span class="k">Foco atual</span><span class="v">LGPD · Provas Digitais · Crimes Cibernéticos</span></div>
+        <div class="meta-card"><span class="k">Status do site</span><span class="v">Em desenvolvimento contínuo</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMAS -->
+  <section id="areas">
+    <div class="section-head">
+      <div class="eyebrow">Temas abordados</div>
       <h2>Três frentes do Direito Eletrônico.</h2>
     </div>
-  </div>
-  <div class="wrap" style="padding:0 28px 0;">
-    <div class="areas-grid">
-      <a class="area-card" href="lgpd.html">
-        <span class="idx">Processo nº 001</span>
+    <div class="cards">
+      <a href="lgpd.html" class="card">
+        <span class="card-id">PROCESSO Nº 001</span>
         <h3>Proteção de Dados — LGPD</h3>
         <p>Fundamentos da Lei nº 13.709/2018: princípios, bases legais para tratamento de dados e direitos do titular.</p>
-        <span class="go">Abrir processo →</span>
+        <span class="go">Abrir processo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </a>
-      <a class="area-card" href="provas-digitais.html">
-        <span class="idx">Processo nº 002</span>
+      <a href="provas-digitais.html" class="card">
+        <span class="card-id">PROCESSO Nº 002</span>
         <h3>Provas Digitais</h3>
         <p>Como registros eletrônicos, logs e metadados ganham valor probatório — e o que garante sua validade em juízo.</p>
-        <span class="go">Abrir processo →</span>
+        <span class="go">Abrir processo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </a>
-      <a class="area-card" href="crimes-ciberneticos.html">
-        <span class="idx">Processo nº 003</span>
+      <a href="crimes-ciberneticos.html" class="card">
+        <span class="card-id">PROCESSO Nº 003</span>
         <h3>Crimes Cibernéticos</h3>
         <p>Panorama da legislação penal aplicada a invasões, fraudes eletrônicas e outros ilícitos praticados por meio digital.</p>
-        <span class="go">Abrir processo →</span>
+        <span class="go">Abrir processo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </a>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="contact" id="contato">
-  <div class="wrap">
-    <div>
-      <span class="eyebrow">Contato</span>
-      <h2>Tem uma dúvida ou sugestão de tema?</h2>
-      <p>Escreva contando o que você quer entender melhor sobre direito digital — dados, provas eletrônicas ou crimes cibernéticos. Costumo responder por e-mail.</p>
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="contact-panel">
+      <div class="contact-grid">
+        <div>
+          <h2>Tem uma dúvida ou<br>sugestão de tema?</h2>
+          <p>Escreva contando o que você quer entender melhor sobre direito digital — dados, provas eletrônicas ou crimes cibernéticos. Costumo responder por e-mail.</p>
+        </div>
+        <div class="contact-list">
+          <div class="contact-item">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg></div>
+            <div><span class="label">E-mail</span><span class="val">contato@alfredo.adv.br</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></div>
+            <div><span class="label">Instagram</span><span class="val">@alfreire</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4.5 8-11.8A8 8 0 0 0 4 10.2C4 17.5 12 22 12 22z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><span class="label">Localização</span><span class="val">Brasil</span></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <ul class="contact-list">
-      <li><span class="label">E-mail</span> <a href="mailto:contato@alfredo.adv.br">contato@alfredo.adv.br</a></li>
-      <li><span class="label">GitHub</span> <a href="https://github.com/alfreire11" target="_blank" rel="noopener">github.com/alfreire11</a></li>
-      <li><span class="label">Localização</span> <span>Brasil</span></li>
-    </ul>
-  </div>
-</section>
+  </section>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <span>© <span id="year"></span> alfredo.adv.br</span>
-    <span>Conteúdo de caráter informativo e acadêmico.</span>
+</main>
+
+<footer class="wrap">
+  <div class="footer-row">
+    <p>© alfredo.adv.br — conteúdo de caráter informativo e acadêmico.</p>
+    <p>compilado em pt-BR // status: online</p>
   </div>
 </footer>
 
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
